@@ -2,6 +2,8 @@
 from pwn import *
 import subprocess, argparse, sys, getopt, time
 
+__author__ = 'https://github.com/vegkva'
+
 description_text = """Script to redirect program execution. Used to call a function that is not mean to be called.
 Often required in simple buffer overflow challenges in CTF's."""
 
